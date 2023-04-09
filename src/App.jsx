@@ -10,11 +10,11 @@ const App = () => {
     <Navbar />    
     <Routes>
       <Route path='/' element={<Home/>} />
-      <Route path='https://thriving-lamington-a6a5cb.netlify.app/tech' element={<Tech />} />
-      <Route path="https://thriving-lamington-a6a5cb.netlify.app/finance" element={<Finance />} />
-      <Route path="https://thriving-lamington-a6a5cb.netlify.app/business" element={<Business />} />
-      <Route path="https://thriving-lamington-a6a5cb.netlify.app/science" element={<Science />} />
-      <Route path="https://thriving-lamington-a6a5cb.netlify.app/contactme" element={<ContactMe />} />
+      <Route path='/tech' element={<Tech />} />
+      <Route path="/finance" element={<Finance />} />
+      <Route path="/business" element={<Business />} />
+      <Route path="/science" element={<Science />} />
+      <Route path="/contactme" element={<ContactMe />} />
 
     </Routes>
     </>
