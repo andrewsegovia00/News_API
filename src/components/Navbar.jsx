@@ -27,7 +27,7 @@ const Navbar = () => {
     <nav className='fixed sm:px-16 px-6 w-full flex items-center py-1.5 sm:py-3.5 top-0 z-20 bg-primary primary-color'>
       <div className="w-full flex justify-between items-center max-w-7x1 mx-auto">
         <Link 
-        to="/"
+        to="https://thriving-lamington-a6a5cb.netlify.app/"
         className="flex items-center gap-2"
         onClick={() => {
           setActive("");
@@ -44,7 +44,7 @@ const Navbar = () => {
               key={Link.id}
               className={`${active === Link.title ? "text-white" : "text-secondary"} hoover: text-white text-[18px] font-medium cursor-pointer`} onClick={() => setActive(Link.title)}>
               
-                <a href={`/${Link.id}`}>{Link.title}</a>
+                <a href={`https://thriving-lamington-a6a5cb.netlify.app/${Link.id}`}>{Link.title}</a>
 
             </li>
           ))}
@@ -75,7 +75,7 @@ const Navbar = () => {
                     setActive(Link.title)
                   }}
                 >
-                  <a href={`${Link.id}`}>{Link.title}</a>
+                  <a href={`https://thriving-lamington-a6a5cb.netlify.app/${Link.id}`}>{Link.title}</a>
                 </li>
               ))}
             </ul> 
